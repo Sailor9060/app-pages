@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harmonie2 — Support</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+         max-width: 700px; margin: 0 auto; padding: 40px 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+  .subtitle { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+  h2 { font-size: 1.2em; margin-top: 2em; }
+  a { color: #0066cc; }
+  code { background: #f2f2f2; padding: 0.15em 0.4em; border-radius: 3px; font-size: 0.95em; }
+  .rule { display: block; margin: 0.4em 0; }
+</style>
+</head>
+<body>
+
+<h1>Harmonie2 Support</h1>
+<p class="subtitle">Rule-based MIDI harmonizer (AUv3 MIDI FX) for AUM and other AUv3 hosts on iPad</p>
+
+<h2>Getting started</h2>
+<p>Harmonie2 is a MIDI effect, not a standalone instrument — load it as a MIDI FX plug-in inside a compatible host such as <a href="https://kymatica.com/apps/aum">AUM</a>, then write a configuration in the plug-in's editor and press <strong>Submit</strong> to activate it.</p>
+
+<h2>Basic configuration syntax</h2>
+<p>One rule per line, for example:</p>
+<code class="rule">C3 : C3 E3 G3</code>
+<code class="rule">3/C3 : C3</code>
+<code class="rule">C3 : //M2/1/C3 E3 G3</code>
+<p>See the hint text inside the plug-in editor for the full syntax reference (channel switching, output routing, status variables, and filters).</p>
+
+<h2>Contact</h2>
+<p>For questions, bug reports, or feature requests, email: <a href="mailto:franzweber@aol.com">franzweber@aol.com</a></p>
+<p>Please include your iOS/iPadOS version, the host app you're using (e.g. AUM), and — if reporting a problem — the configuration text that reproduces it.</p>
+
+</body>
+</html>
